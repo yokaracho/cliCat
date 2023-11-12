@@ -11,7 +11,7 @@ This console application fetches information about cat breeds from an API, group
    cd cliCat
 2. Install dependencies:
     ```bash
-   go get -u github.com/spf13/cobra
+   go mod tidy
 3. Build and install the application:
    ```bash
    go build
